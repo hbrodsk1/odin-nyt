@@ -1,0 +1,400 @@
+/* * {
+   border: 1px solid red !important;
+} 
+
+*/	
+/* */
+.container {
+	height: 3000px;
+}
+
+.content-container {
+	position: relative;
+	height: 2900px;
+	margin-left: 20px;
+	box-shadow:  -4px 0 4px 0 rgba(25,25,25,0.04);
+}
+
+.main-article-container {
+	position: relative;
+	height: 2500px;
+	margin-left: 5%;
+	top: 5%;
+}
+
+
+/* header */
+.header {
+	position: fixed;
+	background-color: white;
+	z-index: 10;	
+	height: 47px;
+	width: 100%;
+	top: 0;
+	left: 30px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.sections-button {
+	position: relative;
+	width: 103px;
+	height: 25px;
+	top: 10px;
+	right: 15px;
+	background-color: white;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+	border: 1px solid #e2e2e2;
+	border-bottom-color: #cecece;
+	font-weight: 700;
+}
+
+.menu-icon img {
+	position: relative;
+	height: 16px;
+	width: 16px;
+	float: left;
+}
+
+.home-button {
+	position: relative;
+	width: 75px;
+	height: 30px;
+	top: 9px;
+	background-color: white;
+	font-weight: 500;
+	border: none;
+}
+
+.home-button:hover {
+	background-color: #f8f8f8;
+}
+
+.nyt-icon img {
+	position: relative;
+	height: 16px;
+	width: 16px;
+	float: left;
+}
+
+.search-button {
+	position: relative;
+	width: 85px;
+	height: 30px;
+	top: 10px;
+	background-color: white;
+	font-weight: 500;
+	border: none;
+}
+
+.search-button:hover {
+	background-color: #f8f8f8;
+}
+
+.search-icon img {
+	position: relative;
+	height: 13px;
+	width: 13px;
+	float: left;
+}
+
+.nyt-logo {
+	position: relative;
+	margin: auto;
+	margin-top: -30px;
+	width: 185px;
+	height: 26px;
+	top: 10px;
+
+}
+
+.nyt-logo img {
+	position: relative;
+	margin: auto;
+	width: 185px;
+	height: 26px;
+
+}
+
+
+.button-text {
+	text-transform: uppercase;
+}
+
+.subscribe-button {
+	position: relative;
+	float: right;
+	width: 120px;
+	height: 30px;
+	margin-right: 10px;
+	margin-top: -18px;
+	border-color: #4d7b9f;
+	border-radius: 4px;
+	border: 1px solid #e2e2e2;
+	color: white;
+	font-size: 11px;
+	font-weight: 700;
+	background-color: #6288a5;
+}
+
+.login-button {
+	float: right;
+	width: 55px;
+	height: 30px;
+	margin-right: 100px;
+	margin-top: -18px;
+	border-color: #4d7b9f;
+	border-radius: 4px;
+	border: 1px solid #e2e2e2;
+	color: white;
+	font-weight: 700;
+	background-color: #6288a5;
+}
+
+.settings-icon {
+	float: right;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	left: 215px;
+	margin-top: -10px;
+}
+
+.settings-icon img {
+	position: relative;
+	width: 16px;
+	height: 16px;
+}
+
+/* Suggested Articles */
+.suggested-articles-bar {
+	position: absolute;
+	top: 50px;
+	height: 82px;
+	width: 101%;
+	border-bottom: 1px solid #e2e2e2;
+	box-shadow:  0 4px 0 0 rgba(25,25,25,0.04);
+}
+
+.suggested-articles-list {
+	position: relative;
+	list-style-type: none;
+	bottom: 16px;
+
+}
+
+.suggested-article {
+	position: relative;
+	float: left;
+	width: 238px;
+	height: 80px;
+	left: -40px;
+	bottom: 2px;
+	border-right: solid 1px #e2e2e2;
+}
+
+.suggested-articles-list li:last-of-type {
+	border: none;
+}
+
+.suggested-article-img img {
+	position: relative;
+	height: 65px;
+	width: 65px;
+	float: left;
+	margin: 5px 0 5px 5px;
+    padding: 0 4px 0 3px;
+}
+
+.suggested-article-title {
+	position: relative;
+	display: inline-block;
+	width: 145px;
+	top: 15px;
+	left: 5px;
+	font-size: 0.8125rem;
+	line-height: 1rem;
+}
+
+/* Separator */
+.separator {
+	position: absolute;
+	width: 90%;
+	height: 1px;
+	background-color: black;
+	margin-left: 5%;
+	top: 135px;
+}
+
+/* Category */
+.category {
+	position: relative;
+	float: left;
+	font-weight: 900;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 13px;
+}
+
+/* Main Article */
+.article-title {
+	position: relative;
+	float: left;
+	width: 95%;
+}
+
+.article-title h1 {
+	position: relative;
+	font-style: italic;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #e2e2e2;
+	
+}
+
+.article-author {
+	position: relative;
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.article-date {
+	position: relative;
+	display: inline;
+	font-size: 12px;
+}
+
+.main-article-image img {
+	position: relative;
+	margin-top: 35px;
+	width: 1080px;
+	height: 607px;
+}
+
+.image-caption {
+	position: relative;
+	width: 600px;
+	color: #666;
+	font-size: 0.875rem;
+	font-weight: 300;
+}
+
+.credit {
+	display: inline;
+	font-size: 0.775rem;
+	color: #999;
+}
+
+.story-body {
+	position: relative;
+	margin-top: 50px;
+	width: 630px;
+}
+
+.story-body-text {
+	width: 540px;
+	margin-left: 90px;
+	font-size: 1.0625rem;
+	font-family: georgia,"times new roman",times,serif;
+	line-height: 1.625rem;
+}
+
+
+
+/* Interactive */
+.theory-of-inflation {
+	position: relative;
+	margin-left: -90px;
+	margin-top: 30px;
+	width: 1000px;
+	height: 735px;
+	border-top: solid 1px #e2e2e2;
+	border-bottom: solid 1px #e2e2e2;
+}
+.interactive-image img {
+	position: relative;
+	width: 1000px;
+	height: 576px;
+}
+
+.interactive-caption h2 {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.interactive-caption p {
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.interactive-image-info {
+	position: absolute;
+	width: 1000px;
+	top: 230px;
+	z-index: 9;
+	list-style-type: none;
+}
+
+.interactive-image-info li {
+	position: relative;
+	display: inline-block;
+	left: -40px;
+	width: 244.93px;
+	height: 120px;
+	font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    font-family: arial,helvetica,sans-serif;
+    z-index: 9;
+}
+
+.distant-coffee {
+	top: -18px;
+}
+
+.interactive-image-info-lower {
+	position: absolute;
+	width: 1000px;
+	top: 500px;
+	z-index: 9;
+	list-style-type: none;
+}
+
+.interactive-image-info-lower li {
+	position: relative;
+	display: inline-block;
+	left: -40px;
+	width: 244.93px;
+	height: 120px;
+	font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    font-family: arial,helvetica,sans-serif;
+    z-index: 9;
+}
+
+.inflation {
+	top: 17px;
+}
+
+.interactive-image-credit {
+	font-size: 0.75rem;
+	line-height: 1.125rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Article Video */
+.article-video {
+	margin: 40px 0 0 -90px;
+	width: 645px;
+	height: 315px;
+}
+
+.iframe-caption {
+	margin-left: -90px;
+}
